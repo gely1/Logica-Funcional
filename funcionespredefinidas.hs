@@ -1,0 +1,14 @@
+abs a = abs a;--Devuelve el mismo valor que se ingresa.
+ceiling a = ceiling a;--Al ingresar un valor con decimales, se retorna el valor entero más próximo en aumento.
+succ a = succ a;--Retorna el valor ingresado +1.
+min x y = min x y;--Muestra el valor mínimo entre x y y.
+max x y = max x y;--Muestra el valor máximo entre x y y.
+div x y = div x y;--Divide el valor x entre el valor y y retorna el resultado.
+mod x y = mod x y;--Extrae el resto de la división de x entre y.
+even a = even a;--Si el valor es par, retorna True, si es impar retorna False.
+floor x = floor x;--Si se ingresa un valor con decimal, se devolverá solo el entero.
+gcd x y = gcd x y;--Devuelve el máximo común divisor entre los dos valores ingresados.
+not a = not a;--Si se ingresa True, devuelve False, y si se ingresa False, retorna True.
+odd a = odd a;--Si el número es impar, devuelve True, y si es par devuelve False.
+signum a = signum a;--Si el número es positivo, devuelve 1, si es negativo devuelve -1.
+snd (x,y) = snd (x,y);--Se deben ingresar los valores entre parentesis, de los cuales se retorna el segundo.
